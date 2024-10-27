@@ -1,13 +1,13 @@
 {
   "name": "fastcarshared",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
-	"build": "npx tsc",
+    "build": "npx tsc",
     "build:install": "chmod 755 build_install.sh && ./build_install.sh",
     "lint": "eslint --ext .js,.ts",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts)\"",
@@ -23,5 +23,10 @@
     "eslint": "^9.12.0",
     "prettier": "^3.3.3",
     "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "jsonwebtoken": "^9.0.2"
   }
 }
