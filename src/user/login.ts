@@ -1,18 +1,20 @@
 import { IsString, IsEmail, ValidateIf } from "class-validator";
 import { ExpoDeviceInfo } from "./device";
 
-class LoginUserRequestDto {
+class LoginBase {
+  device_info: ExpoDeviceInfo;
+}
+
+class LoginUserRequestDto extends LoginBase {
   @ValidateIf((o) => o.username === null || o.username === undefined)
   @IsEmail()
   email?: string;
 
   @IsString()
   password: string;
-
-  device_info: ExpoDeviceInfo;
 }
 
-class SocialLoginRequestDto {
+class SocialLoginRequestDto extends LoginBase {
   provider: "google" | "apple" | "microsoft";
   client_id: string;
   credential: string;
@@ -24,4 +26,9 @@ class LoginUserResponseDto {
   error_message: string;
 }
 
-export { LoginUserRequestDto, LoginUserResponseDto, SocialLoginRequestDto };
+export {
+  LoginUserRequestDto,
+  LoginUserResponseDto,
+  SocialLoginRequestDto,
+  LoginBase,
+};
