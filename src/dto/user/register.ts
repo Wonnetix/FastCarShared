@@ -29,7 +29,7 @@ class RegisterUserRequestDto extends UserBaseRecord {
 }
 
 class RegisterUserResponseDto {
-  is_user: string;
+  id_user: string;
   error_code: string;
   error_message: string;
 }

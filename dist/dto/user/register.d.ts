@@ -4,7 +4,7 @@ declare class RegisterUserRequestDto extends UserBaseRecord {
     confirm_password: string;
 }
 declare class RegisterUserResponseDto {
-    is_user: string;
+    id_user: string;
     error_code: string;
     error_message: string;
 }
