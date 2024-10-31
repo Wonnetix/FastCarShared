@@ -18,3 +18,4 @@ __exportStar(require("./device"), exports);
 __exportStar(require("./login"), exports);
 __exportStar(require("./jwtPayload"), exports);
 __exportStar(require("./register"), exports);
+__exportStar(require("./validate"), exports);
