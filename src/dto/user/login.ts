@@ -1,4 +1,4 @@
-import { IsString, IsEmail, ValidateIf } from "class-validator";
+import { IsString, IsEmail } from "class-validator";
 import { ExpoDeviceInfo } from "./device";
 
 class LoginBase {
@@ -6,7 +6,6 @@ class LoginBase {
 }
 
 class LoginUserRequestDto extends LoginBase {
-  @ValidateIf((o) => o.username === null || o.username === undefined)
   @IsEmail()
   email?: string;
 
