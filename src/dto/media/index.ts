@@ -1,1 +1,1 @@
-export * from "./newphoto";
+export * from "./photo
