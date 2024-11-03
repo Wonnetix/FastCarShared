@@ -1,6 +1,7 @@
 class NewPhotoRequestDto {
   width: number;
   height: number;
+  timestamp: number;
 }
 
 class NewPhotoResponseDto {

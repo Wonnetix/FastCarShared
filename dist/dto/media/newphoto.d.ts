@@ -1,6 +1,7 @@
 declare class NewPhotoRequestDto {
     width: number;
     height: number;
+    timestamp: number;
 }
 declare class NewPhotoResponseDto {
     id: string;
