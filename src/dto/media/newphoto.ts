@@ -1,6 +1,13 @@
-class NewPhotoResponseDto {
-  id: string;
-  signature: string;
+class NewPhotoRequestDto {
+  width: number;
+  height: number;
 }
 
-export { NewPhotoResponseDto };
+class NewPhotoResponseDto {
+  id: string;
+  api_key: string;
+  signature: string;
+  url: string;
+}
+
+export { NewPhotoRequestDto, NewPhotoResponseDto };
