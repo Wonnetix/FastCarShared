@@ -1,8 +1,9 @@
 import { PhotoRecordDto } from "../media";
 declare class PostRecordDto {
-    id: string;
-    media_url: string;
-    comment: string;
+    id_post: string;
+    id_user: string;
+    caption: string;
+    created_at: string;
     media: PhotoRecordDto[];
 }
 export { PostRecordDto };
