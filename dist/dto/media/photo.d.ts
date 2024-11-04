@@ -11,9 +11,10 @@ declare class NewPhotoResponseDto {
     folder: string;
     url: string;
 }
-declare class PhotoRecordDto {
-    id: Buffer;
+declare class MediaRecordDto {
+    id: string;
     mediaUrl: string;
     createdAt: string;
+    updatedAt: string;
 }
-export { NewPhotoRequestDto, NewPhotoResponseDto, PhotoRecordDto };
+export { NewPhotoRequestDto, NewPhotoResponseDto, MediaRecordDto };

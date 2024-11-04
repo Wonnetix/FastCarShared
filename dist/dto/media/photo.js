@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PhotoRecordDto = exports.NewPhotoResponseDto = exports.NewPhotoRequestDto = void 0;
+exports.MediaRecordDto = exports.NewPhotoResponseDto = exports.NewPhotoRequestDto = void 0;
 var NewPhotoRequestDto = (function () {
     function NewPhotoRequestDto() {
     }
@@ -13,9 +13,9 @@ var NewPhotoResponseDto = (function () {
     return NewPhotoResponseDto;
 }());
 exports.NewPhotoResponseDto = NewPhotoResponseDto;
-var PhotoRecordDto = (function () {
-    function PhotoRecordDto() {
+var MediaRecordDto = (function () {
+    function MediaRecordDto() {
     }
-    return PhotoRecordDto;
+    return MediaRecordDto;
 }());
-exports.PhotoRecordDto = PhotoRecordDto;
+exports.MediaRecordDto = MediaRecordDto;

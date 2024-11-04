@@ -1,9 +1,9 @@
-import { PhotoRecordDto } from "../media";
+import { MediaRecordDto } from "../media";
 declare class PostRecordDto {
-    id: Buffer;
-    userId: Buffer;
+    id: string;
+    userId: string;
     caption: string;
     createdAt: string;
-    media: PhotoRecordDto[];
+    media: MediaRecordDto[];
 }
 export { PostRecordDto };

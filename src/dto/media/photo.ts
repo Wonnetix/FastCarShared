@@ -13,10 +13,11 @@ class NewPhotoResponseDto {
   url: string;
 }
 
-class PhotoRecordDto {
-  id: Buffer;
+class MediaRecordDto {
+  id: string;
   mediaUrl: string;
   createdAt: string;
+  updatedAt: string;
 }
 
-export { NewPhotoRequestDto, NewPhotoResponseDto, PhotoRecordDto };
+export { NewPhotoRequestDto, NewPhotoResponseDto, MediaRecordDto };
