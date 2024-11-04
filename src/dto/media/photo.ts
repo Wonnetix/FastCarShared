@@ -13,20 +13,10 @@ class NewPhotoResponseDto {
   url: string;
 }
 
-class SavePhotoRequestDto {
+class PhotoRecordDto {
   id: string;
   media_url: string;
-  comment: string;
+  created_at: string;
 }
 
-class SavePhotoResponseDto {
-  error_code: string;
-  error_message: string;
-}
-
-export {
-  NewPhotoRequestDto,
-  NewPhotoResponseDto,
-  SavePhotoRequestDto,
-  SavePhotoResponseDto,
-};
+export { NewPhotoRequestDto, NewPhotoResponseDto, PhotoRecordDto };

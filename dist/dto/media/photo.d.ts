@@ -11,13 +11,9 @@ declare class NewPhotoResponseDto {
     folder: string;
     url: string;
 }
-declare class SavePhotoRequestDto {
+declare class PhotoRecordDto {
     id: string;
     media_url: string;
-    comment: string;
+    created_at: string;
 }
-declare class SavePhotoResponseDto {
-    error_code: string;
-    error_message: string;
-}
-export { NewPhotoRequestDto, NewPhotoResponseDto, SavePhotoRequestDto, SavePhotoResponseDto, };
+export { NewPhotoRequestDto, NewPhotoResponseDto, PhotoRecordDto };
