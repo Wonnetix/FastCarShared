@@ -1,7 +1,8 @@
 declare class CreatePostRequestDto {
     id: string;
     media_url: string;
-    comment: string;
+    thumbnail_url: string;
+    caption: string;
 }
 declare class CreatePostResponseDto {
     error_code: string;

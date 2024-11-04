@@ -1,7 +1,8 @@
 class CreatePostRequestDto {
   id: string;
   media_url: string;
-  comment: string;
+  thumbnail_url: string;
+  caption: string;
 }
 
 class CreatePostResponseDto {
