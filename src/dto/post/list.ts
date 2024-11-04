@@ -1,10 +1,10 @@
 import { PhotoRecordDto } from "../media";
 
 class PostRecordDto {
-  id_post: string;
-  id_user: string;
+  id: Buffer;
+  userId: Buffer;
   caption: string;
-  created_at: string;
+  createdAt: string;
   media: PhotoRecordDto[];
 }
 

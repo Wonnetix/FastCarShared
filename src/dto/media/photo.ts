@@ -14,9 +14,9 @@ class NewPhotoResponseDto {
 }
 
 class PhotoRecordDto {
-  id: string;
-  media_url: string;
-  created_at: string;
+  id: Buffer;
+  mediaUrl: string;
+  createdAt: string;
 }
 
 export { NewPhotoRequestDto, NewPhotoResponseDto, PhotoRecordDto };
