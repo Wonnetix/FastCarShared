@@ -1,5 +1,10 @@
 import { MediaRecordDto } from "../media";
 
+class PostListRequestDto {
+  skip: number;
+  take: number;
+}
+
 class PostRecordDto {
   id: string;
   userId: string;
@@ -8,4 +13,4 @@ class PostRecordDto {
   media: MediaRecordDto[];
 }
 
-export { PostRecordDto };
+export { PostListRequestDto, PostRecordDto };
