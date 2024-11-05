@@ -14,8 +14,8 @@ declare class NewPhotoResponseDto {
 declare class MediaRecordDto {
     id: string;
     mediaUrl: string;
-    thumbnailUrl: string;
-    mediaType: string;
+    thumbnailUrl?: string;
+    mediaType?: string;
     createdAt: string;
     updatedAt: string;
 }
