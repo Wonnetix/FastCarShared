@@ -8,9 +8,13 @@ declare class PostRecordDto {
     userId: string;
     authorHandle: string;
     caption: string;
-    timeAgo: string;
+    timeAgo: TimeAgoDto;
     likes: number;
     commentCount: number;
     media: MediaRecordDto[];
 }
-export { PostListRequestDto, PostRecordDto };
+declare class TimeAgoDto {
+    value: number;
+    unit: string;
+}
+export { PostListRequestDto, PostRecordDto, TimeAgoDto };
