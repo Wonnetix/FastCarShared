@@ -12,6 +12,7 @@ declare class PostRecordDto {
     likes: number;
     commentCount: number;
     media: MediaRecordDto[];
+    isLiked: boolean;
 }
 declare class TimeAgoDto {
     value: number;

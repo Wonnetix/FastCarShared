@@ -3,3 +3,4 @@ export * from "./login";
 export * from "./jwtPayload";
 export * from "./register";
 export * from "./validate";
+export * from "./interaction";

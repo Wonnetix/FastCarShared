@@ -14,6 +14,7 @@ class PostRecordDto {
   likes: number;
   commentCount: number;
   media: MediaRecordDto[];
+  isLiked: boolean;
 }
 
 class TimeAgoDto {
