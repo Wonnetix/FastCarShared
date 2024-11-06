@@ -9,6 +9,7 @@ class LikeResponseDto {
 class CommentRequestDto {
   postId: string;
   comment: string;
+  parentCommentId?: string;
 }
 
 class CommentResponseDto {

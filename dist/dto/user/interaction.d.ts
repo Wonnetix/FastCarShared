@@ -3,5 +3,6 @@ declare class FollowRequestDto {
 }
 declare class FollowResponseDto {
     isFollowed: boolean;
+    pendingApproval: boolean;
 }
 export { FollowRequestDto, FollowResponseDto };

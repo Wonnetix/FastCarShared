@@ -7,6 +7,7 @@ declare class LikeResponseDto {
 declare class CommentRequestDto {
     postId: string;
     comment: string;
+    parentCommentId?: string;
 }
 declare class CommentResponseDto {
     commentId: string;

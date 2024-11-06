@@ -4,6 +4,7 @@ class FollowRequestDto {
 
 class FollowResponseDto {
   isFollowed: boolean;
+  pendingApproval: boolean;
 }
 
 export { FollowRequestDto, FollowResponseDto };
