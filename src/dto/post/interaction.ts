@@ -10,6 +10,8 @@ class CommentRequestDto {
   postId: string;
   comment: string;
   parentCommentId?: string;
+  dislike?: boolean;
+  report?: string;
 }
 
 class CommentResponseDto {
