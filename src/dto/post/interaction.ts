@@ -3,19 +3,27 @@ class LikeRequestDto {
 }
 
 class LikeResponseDto {
-  isLiked: boolean;
+  id_like: number;
 }
 
 class CommentRequestDto {
   postId: string;
-  comment: string;
+  content: string;
   parentCommentId?: string;
-  dislike?: boolean;
-  report?: string;
 }
 
 class CommentResponseDto {
   commentId: string;
+}
+
+class CommentLikeRequestDto {
+  commentId: string;
+  dislike?: boolean;
+  report?: string;
+}
+
+class CommentLikeResponseDto {
+  id_like: number;
 }
 
 export {
@@ -23,4 +31,6 @@ export {
   LikeResponseDto,
   CommentRequestDto,
   CommentResponseDto,
+  CommentLikeRequestDto,
+  CommentLikeResponseDto,
 };
