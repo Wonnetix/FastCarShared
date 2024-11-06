@@ -11,7 +11,7 @@ class PostRecordDto {
   authorHandle: string;
   caption: string;
   timeAgo: TimeAgoDto;
-  likes: number;
+  likeCount: number;
   commentCount: number;
   media: MediaRecordDto[];
   isLiked: boolean;
