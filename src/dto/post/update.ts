@@ -1,5 +1,4 @@
 class UpdatePostRequestDto {
-  postId: string;
   content: string;
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.DeleteCommentResponseDto = exports.DeleteCommentRequestDto = exports.CommentResponseDto = exports.CommentRequestDto = void 0;
+exports.DeleteCommentResponseDto = exports.CommentParamDto = exports.CommentResponseDto = exports.CommentRequestDto = void 0;
 var CommentRequestDto = (function () {
     function CommentRequestDto() {
     }
@@ -13,12 +13,12 @@ var CommentResponseDto = (function () {
     return CommentResponseDto;
 }());
 exports.CommentResponseDto = CommentResponseDto;
-var DeleteCommentRequestDto = (function () {
-    function DeleteCommentRequestDto() {
+var CommentParamDto = (function () {
+    function CommentParamDto() {
     }
-    return DeleteCommentRequestDto;
+    return CommentParamDto;
 }());
-exports.DeleteCommentRequestDto = DeleteCommentRequestDto;
+exports.CommentParamDto = CommentParamDto;
 var DeleteCommentResponseDto = (function () {
     function DeleteCommentResponseDto() {
     }

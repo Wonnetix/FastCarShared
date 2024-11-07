@@ -1,4 +1,4 @@
-class LikeRequestDto {
+class PostParamDto {
   postId: string;
 }
 
@@ -7,7 +7,6 @@ class LikeResponseDto {
 }
 
 class CommentLikeRequestDto {
-  commentId: string;
   dislike?: boolean;
   report?: string;
 }
@@ -17,7 +16,7 @@ class CommentLikeResponseDto {
 }
 
 export {
-  LikeRequestDto,
+  PostParamDto,
   LikeResponseDto,
   CommentLikeRequestDto,
   CommentLikeResponseDto,

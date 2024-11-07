@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CommentLikeResponseDto = exports.CommentLikeRequestDto = exports.LikeResponseDto = exports.LikeRequestDto = void 0;
-var LikeRequestDto = (function () {
-    function LikeRequestDto() {
+exports.CommentLikeResponseDto = exports.CommentLikeRequestDto = exports.LikeResponseDto = exports.PostParamDto = void 0;
+var PostParamDto = (function () {
+    function PostParamDto() {
     }
-    return LikeRequestDto;
+    return PostParamDto;
 }());
-exports.LikeRequestDto = LikeRequestDto;
+exports.PostParamDto = PostParamDto;
 var LikeResponseDto = (function () {
     function LikeResponseDto() {
     }

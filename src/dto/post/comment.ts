@@ -8,7 +8,7 @@ class CommentResponseDto {
   commentId: string;
 }
 
-class DeleteCommentRequestDto {
+class CommentParamDto {
   commentId: string;
 }
 
@@ -20,6 +20,6 @@ class DeleteCommentResponseDto {
 export {
   CommentRequestDto,
   CommentResponseDto,
-  DeleteCommentRequestDto,
+  CommentParamDto,
   DeleteCommentResponseDto,
 };

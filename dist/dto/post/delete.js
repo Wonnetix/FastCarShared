@@ -1,12 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.DeletePostResponseDto = exports.DeletePostRequestDto = void 0;
-var DeletePostRequestDto = (function () {
-    function DeletePostRequestDto() {
-    }
-    return DeletePostRequestDto;
-}());
-exports.DeletePostRequestDto = DeletePostRequestDto;
+exports.DeletePostResponseDto = void 0;
 var DeletePostResponseDto = (function () {
     function DeletePostResponseDto() {
     }

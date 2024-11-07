@@ -1,5 +1,4 @@
 declare class UpdatePostRequestDto {
-    postId: string;
     content: string;
 }
 declare class UpdatePostResponseDto {
