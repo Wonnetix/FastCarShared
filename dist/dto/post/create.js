@@ -16,7 +16,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CreatePostResponseDto = exports.CreatePostRequestDto = void 0;
-var __1 = require("../..");
+var common_1 = require("../../common");
 var CreatePostRequestDto = (function () {
     function CreatePostRequestDto() {
     }
@@ -29,5 +29,5 @@ var CreatePostResponseDto = (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     return CreatePostResponseDto;
-}(__1.ResponseDto));
+}(common_1.ResponseDto));
 exports.CreatePostResponseDto = CreatePostResponseDto;

@@ -1,4 +1,4 @@
-import { ResponseDto } from "../..";
+import { ResponseDto } from "../../common";
 
 class CreatePostRequestDto {
   id: string;

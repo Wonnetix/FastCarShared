@@ -1,5 +1,5 @@
 import { ExpoDeviceInfo } from "./device";
-import { ResponseDto } from "../..";
+import { ResponseDto } from "../../common";
 declare class LoginBase {
     device_info: ExpoDeviceInfo;
 }

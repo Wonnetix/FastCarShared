@@ -16,12 +16,12 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DeletePostResponseDto = void 0;
-var __1 = require("../..");
+var common_1 = require("../../common");
 var DeletePostResponseDto = (function (_super) {
     __extends(DeletePostResponseDto, _super);
     function DeletePostResponseDto() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     return DeletePostResponseDto;
-}(__1.ResponseDto));
+}(common_1.ResponseDto));
 exports.DeletePostResponseDto = DeletePostResponseDto;

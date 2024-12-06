@@ -28,7 +28,7 @@ exports.RegisterUserResponseDto = exports.RegisterUserRequestDto = void 0;
 var class_validator_1 = require("class-validator");
 var match_1 = require("../../decorator/match");
 var BaseUser_1 = require("./BaseUser");
-var __1 = require("../..");
+var common_1 = require("../../common");
 var strongPasswordOptions = {
     minLength: 8,
     minLowercase: 1,
@@ -62,5 +62,5 @@ var RegisterUserResponseDto = (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     return RegisterUserResponseDto;
-}(__1.ResponseDto));
+}(common_1.ResponseDto));
 exports.RegisterUserResponseDto = RegisterUserResponseDto;

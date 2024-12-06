@@ -17,9 +17,11 @@ git push origin $(node -p -e "require('./package.json').version")
 
 # install in backend and frontend
 cd ../FastCarBackend
+rm -rf node_modules/fastcarshared
 npm install git+https://github.com/Wonnetix/FastCarShared.git
 
 cd ../FastCarApp
+rm -rf node_modules/fastcarshared
 npm install git+https://github.com/Wonnetix/FastCarShared.git
 
 cd ../FastCarShared

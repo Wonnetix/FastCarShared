@@ -1,4 +1,4 @@
-import { ResponseDto } from "../..";
+import { ResponseDto } from "../../common";
 declare class CreatePostRequestDto {
     id: string;
     media_url: string;

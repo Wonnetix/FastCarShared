@@ -1,5 +1,5 @@
 import { UserBaseRecord } from "./BaseUser";
-import { ResponseDto } from "../..";
+import { ResponseDto } from "../../common";
 declare class RegisterUserRequestDto extends UserBaseRecord {
     password: string;
     confirm_password: string;

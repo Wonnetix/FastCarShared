@@ -1,6 +1,6 @@
 import { IsString, IsEmail } from "class-validator";
 import { ExpoDeviceInfo } from "./device";
-import { ResponseDto } from "../..";
+import { ResponseDto } from "../../common";
 
 class LoginBase {
   device_info: ExpoDeviceInfo;

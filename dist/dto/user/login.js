@@ -26,7 +26,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LoginBase = exports.SocialLoginRequestDto = exports.LoginUserResponseDto = exports.LoginUserRequestDto = void 0;
 var class_validator_1 = require("class-validator");
-var __1 = require("../..");
+var common_1 = require("../../common");
 var LoginBase = (function () {
     function LoginBase() {
     }
@@ -63,5 +63,5 @@ var LoginUserResponseDto = (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     return LoginUserResponseDto;
-}(__1.ResponseDto));
+}(common_1.ResponseDto));
 exports.LoginUserResponseDto = LoginUserResponseDto;
