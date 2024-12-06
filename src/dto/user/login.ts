@@ -1,5 +1,6 @@
 import { IsString, IsEmail } from "class-validator";
 import { ExpoDeviceInfo } from "./device";
+import { ResponseDto } from "../..";
 
 class LoginBase {
   device_info: ExpoDeviceInfo;
@@ -19,10 +20,8 @@ class SocialLoginRequestDto extends LoginBase {
   credential: string;
 }
 
-class LoginUserResponseDto {
+class LoginUserResponseDto extends ResponseDto {
   token: string;
-  error_code: string;
-  error_message: string;
 }
 
 export {

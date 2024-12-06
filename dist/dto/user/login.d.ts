@@ -1,4 +1,5 @@
 import { ExpoDeviceInfo } from "./device";
+import { ResponseDto } from "../..";
 declare class LoginBase {
     device_info: ExpoDeviceInfo;
 }
@@ -11,9 +12,7 @@ declare class SocialLoginRequestDto extends LoginBase {
     client_id: string;
     credential: string;
 }
-declare class LoginUserResponseDto {
+declare class LoginUserResponseDto extends ResponseDto {
     token: string;
-    error_code: string;
-    error_message: string;
 }
 export { LoginUserRequestDto, LoginUserResponseDto, SocialLoginRequestDto, LoginBase, };

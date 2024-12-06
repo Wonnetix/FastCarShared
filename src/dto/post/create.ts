@@ -1,3 +1,5 @@
+import { ResponseDto } from "../..";
+
 class CreatePostRequestDto {
   id: string;
   media_url: string;
@@ -5,9 +7,6 @@ class CreatePostRequestDto {
   caption: string;
 }
 
-class CreatePostResponseDto {
-  error_code: string;
-  error_message: string;
-}
+class CreatePostResponseDto extends ResponseDto {}
 
 export { CreatePostRequestDto, CreatePostResponseDto };

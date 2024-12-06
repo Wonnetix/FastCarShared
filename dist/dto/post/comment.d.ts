@@ -1,5 +1,5 @@
+import { ResponseDto } from "../..";
 declare class CommentRequestDto {
-    postId: string;
     content: string;
     parentCommentId?: string;
 }
@@ -9,8 +9,6 @@ declare class CommentResponseDto {
 declare class CommentParamDto {
     commentId: string;
 }
-declare class DeleteCommentResponseDto {
-    error_code: number;
-    error_message: string;
+declare class DeleteCommentResponseDto extends ResponseDto {
 }
 export { CommentRequestDto, CommentResponseDto, CommentParamDto, DeleteCommentResponseDto, };

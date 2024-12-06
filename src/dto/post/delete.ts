@@ -1,6 +1,5 @@
-class DeletePostResponseDto {
-  error_code: number;
-  error_message: string;
-}
+import { ResponseDto } from "../..";
+
+class DeletePostResponseDto extends ResponseDto {}
 
 export { DeletePostResponseDto };

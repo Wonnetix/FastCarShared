@@ -1,8 +1,7 @@
+import { ResponseDto } from "../..";
 declare class UpdatePostRequestDto {
     content: string;
 }
-declare class UpdatePostResponseDto {
-    error_code: number;
-    error_message: string;
+declare class UpdatePostResponseDto extends ResponseDto {
 }
 export { UpdatePostRequestDto, UpdatePostResponseDto };

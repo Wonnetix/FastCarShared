@@ -7,7 +7,7 @@ import {
 import { Match } from "../../decorator/match";
 
 import { UserBaseRecord } from "./BaseUser";
-
+import { ResponseDto } from "../..";
 const strongPasswordOptions = {
   minLength: 8,
   minLowercase: 1,
@@ -28,10 +28,8 @@ class RegisterUserRequestDto extends UserBaseRecord {
   confirm_password: string;
 }
 
-class RegisterUserResponseDto {
+class RegisterUserResponseDto extends ResponseDto {
   id_user: string;
-  error_code: string;
-  error_message: string;
 }
 
 export { RegisterUserRequestDto, RegisterUserResponseDto };

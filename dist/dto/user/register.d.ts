@@ -1,11 +1,10 @@
 import { UserBaseRecord } from "./BaseUser";
+import { ResponseDto } from "../..";
 declare class RegisterUserRequestDto extends UserBaseRecord {
     password: string;
     confirm_password: string;
 }
-declare class RegisterUserResponseDto {
+declare class RegisterUserResponseDto extends ResponseDto {
     id_user: string;
-    error_code: string;
-    error_message: string;
 }
 export { RegisterUserRequestDto, RegisterUserResponseDto };
