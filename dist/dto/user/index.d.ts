@@ -5,3 +5,4 @@ export * from "./register";
 export * from "./validate";
 export * from "./interaction";
 export * from "./profile";
+export * from "./BaseUser";
