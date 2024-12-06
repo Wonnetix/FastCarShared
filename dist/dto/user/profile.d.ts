@@ -8,6 +8,8 @@ declare class UserProfileDto extends UserBaseRecord {
     createdAt: Date;
     updatedAt: Date;
     _count: {
+        cars: number;
+        posts: number;
         followers: number;
         following: number;
     };
