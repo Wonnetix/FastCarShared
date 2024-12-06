@@ -13,6 +13,7 @@ declare class SocialLoginRequestDto extends LoginBase {
     credential: string;
 }
 declare class LoginUserResponseDto extends ResponseDto {
+    user_id: string;
     token: string;
 }
 export { LoginUserRequestDto, LoginUserResponseDto, SocialLoginRequestDto, LoginBase, };
