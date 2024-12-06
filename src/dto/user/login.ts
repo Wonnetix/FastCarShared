@@ -21,7 +21,7 @@ class SocialLoginRequestDto extends LoginBase {
 }
 
 class LoginUserResponseDto extends ResponseDto {
-  user_id: string;
+  userId: string;
   token: string;
 }
 

@@ -1,6 +1,7 @@
 import { MediaRecordDto } from "../media";
 
 class PostListRequestDto {
+  userId: string;
   skip: number;
   take: number;
 }
