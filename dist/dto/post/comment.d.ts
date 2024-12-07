@@ -10,17 +10,15 @@ declare class CommentParamDto {
     commentId: string;
 }
 declare class CommentRecordDto {
-    commentId: string;
+    id: string;
     userId: string;
     userName: string;
     userProfilePicture: string;
     content: string;
     parentCommentId?: string;
-    _count: {
-        likes: number;
-    };
+    likes: number;
+    replies: number;
     timeAgo: string;
-    replies: CommentRecordDto[];
 }
 declare class DeleteCommentResponseDto extends ResponseDto {
 }

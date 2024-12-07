@@ -14,17 +14,15 @@ class CommentParamDto {
 }
 
 class CommentRecordDto {
-  commentId: string;
+  id: string;
   userId: string;
   userName: string;
   userProfilePicture: string;
   content: string;
   parentCommentId?: string;
-  _count: {
-    likes: number;
-  };
+  likes: number;
+  replies: number;
   timeAgo: string;
-  replies: CommentRecordDto[];
 }
 
 class DeleteCommentResponseDto extends ResponseDto {}
