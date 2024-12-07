@@ -23,11 +23,13 @@ var CommentRequestDto = (function () {
     return CommentRequestDto;
 }());
 exports.CommentRequestDto = CommentRequestDto;
-var CommentResponseDto = (function () {
+var CommentResponseDto = (function (_super) {
+    __extends(CommentResponseDto, _super);
     function CommentResponseDto() {
+        return _super !== null && _super.apply(this, arguments) || this;
     }
     return CommentResponseDto;
-}());
+}(common_1.ResponseDto));
 exports.CommentResponseDto = CommentResponseDto;
 var CommentParamDto = (function () {
     function CommentParamDto() {

@@ -5,7 +5,7 @@ class CommentRequestDto {
   parentCommentId?: string;
 }
 
-class CommentResponseDto {
+class CommentResponseDto extends ResponseDto {
   commentId: string;
 }
 

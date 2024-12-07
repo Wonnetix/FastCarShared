@@ -1,7 +1,7 @@
 import { UserBaseRecord } from "./BaseUser";
 
 class UserProfileDto extends UserBaseRecord {
-  id_user: string;
+  userId: string;
   bio?: string;
   profilePicture?: string;
   isPublic?: boolean;

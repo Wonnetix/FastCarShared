@@ -3,7 +3,7 @@ declare class CommentRequestDto {
     content: string;
     parentCommentId?: string;
 }
-declare class CommentResponseDto {
+declare class CommentResponseDto extends ResponseDto {
     commentId: string;
 }
 declare class CommentParamDto {

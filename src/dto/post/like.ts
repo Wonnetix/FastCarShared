@@ -1,8 +1,10 @@
+import { ResponseDto } from "../../common";
+
 class PostParamDto {
   postId: string;
 }
 
-class LikeResponseDto {
+class LikeResponseDto extends ResponseDto {
   id_like: number;
 }
 
@@ -11,7 +13,7 @@ class CommentLikeRequestDto {
   report?: string;
 }
 
-class CommentLikeResponseDto {
+class CommentLikeResponseDto extends ResponseDto {
   id_like: number;
 }
 
