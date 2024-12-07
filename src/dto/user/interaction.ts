@@ -7,4 +7,12 @@ class FollowResponseDto {
   pendingApproval: boolean;
 }
 
-export { FollowRequestDto, FollowResponseDto };
+class FollowUserDto {
+  userId: string;
+  profilePicture?: string;
+  name?: string;
+  isPublic?: boolean;
+  pendingApproval?: boolean;
+}
+
+export { FollowRequestDto, FollowResponseDto, FollowUserDto };

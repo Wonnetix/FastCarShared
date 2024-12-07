@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.FollowResponseDto = exports.FollowRequestDto = void 0;
+exports.FollowUserDto = exports.FollowResponseDto = exports.FollowRequestDto = void 0;
 var FollowRequestDto = (function () {
     function FollowRequestDto() {
     }
@@ -13,3 +13,9 @@ var FollowResponseDto = (function () {
     return FollowResponseDto;
 }());
 exports.FollowResponseDto = FollowResponseDto;
+var FollowUserDto = (function () {
+    function FollowUserDto() {
+    }
+    return FollowUserDto;
+}());
+exports.FollowUserDto = FollowUserDto;
