@@ -15,7 +15,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UserProfileDto = void 0;
+exports.UpdateProfileDto = exports.UserProfileDto = void 0;
 var BaseUser_1 = require("./BaseUser");
 var UserProfileDto = (function (_super) {
     __extends(UserProfileDto, _super);
@@ -25,3 +25,9 @@ var UserProfileDto = (function (_super) {
     return UserProfileDto;
 }(BaseUser_1.UserBaseRecord));
 exports.UserProfileDto = UserProfileDto;
+var UpdateProfileDto = (function () {
+    function UpdateProfileDto() {
+    }
+    return UpdateProfileDto;
+}());
+exports.UpdateProfileDto = UpdateProfileDto;

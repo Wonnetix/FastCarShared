@@ -14,4 +14,14 @@ declare class UserProfileDto extends UserBaseRecord {
         following: number;
     };
 }
-export { UserProfileDto };
+declare class UpdateProfileDto {
+    bio?: string;
+    profilePicture?: string;
+    isPublic?: boolean;
+    isActive?: boolean;
+    phone?: string;
+    country?: string;
+    name?: string;
+    language?: string;
+}
+export { UserProfileDto, UpdateProfileDto };
