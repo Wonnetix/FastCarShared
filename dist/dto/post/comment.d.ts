@@ -1,4 +1,5 @@
 import { ResponseDto } from "../../common";
+import { TimeAgoDto } from "./list";
 declare class CommentRequestDto {
     content: string;
     parentCommentId?: string;
@@ -18,7 +19,7 @@ declare class CommentRecordDto {
     parentCommentId?: string;
     likes: number;
     replies: number;
-    timeAgo: string;
+    timeAgo: TimeAgoDto;
 }
 declare class DeleteCommentResponseDto extends ResponseDto {
 }
