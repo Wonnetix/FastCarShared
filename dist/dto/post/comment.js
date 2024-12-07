@@ -15,7 +15,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.DeleteCommentResponseDto = exports.CommentParamDto = exports.CommentResponseDto = exports.CommentRequestDto = void 0;
+exports.CommentRecordDto = exports.DeleteCommentResponseDto = exports.CommentParamDto = exports.CommentResponseDto = exports.CommentRequestDto = void 0;
 var common_1 = require("../../common");
 var CommentRequestDto = (function () {
     function CommentRequestDto() {
@@ -37,6 +37,12 @@ var CommentParamDto = (function () {
     return CommentParamDto;
 }());
 exports.CommentParamDto = CommentParamDto;
+var CommentRecordDto = (function () {
+    function CommentRecordDto() {
+    }
+    return CommentRecordDto;
+}());
+exports.CommentRecordDto = CommentRecordDto;
 var DeleteCommentResponseDto = (function (_super) {
     __extends(DeleteCommentResponseDto, _super);
     function DeleteCommentResponseDto() {

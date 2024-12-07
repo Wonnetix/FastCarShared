@@ -9,6 +9,19 @@ declare class CommentResponseDto extends ResponseDto {
 declare class CommentParamDto {
     commentId: string;
 }
+declare class CommentRecordDto {
+    commentId: string;
+    userId: string;
+    userName: string;
+    userProfilePicture: string;
+    content: string;
+    parentCommentId?: string;
+    _count: {
+        likes: number;
+    };
+    timeAgo: string;
+    replies: CommentRecordDto[];
+}
 declare class DeleteCommentResponseDto extends ResponseDto {
 }
-export { CommentRequestDto, CommentResponseDto, CommentParamDto, DeleteCommentResponseDto, };
+export { CommentRequestDto, CommentResponseDto, CommentParamDto, DeleteCommentResponseDto, CommentRecordDto, };
