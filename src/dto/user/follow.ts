@@ -1,4 +1,10 @@
+import { PaginationDto } from "../../common";
+
 class FollowRequestDto {
+  userId: string;
+}
+
+class FollowListRequestDto extends PaginationDto {
   userId: string;
 }
 
@@ -15,4 +21,9 @@ class FollowUserDto {
   pendingApproval?: boolean;
 }
 
-export { FollowRequestDto, FollowResponseDto, FollowUserDto };
+export {
+  FollowRequestDto,
+  FollowResponseDto,
+  FollowUserDto,
+  FollowListRequestDto,
+};

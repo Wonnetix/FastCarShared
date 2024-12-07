@@ -1,9 +1,8 @@
 import { MediaRecordDto } from "../media";
+import { PaginationDto } from "../../common";
 
-class PostListRequestDto {
+class PostListRequestDto extends PaginationDto {
   userId: string;
-  skip: number;
-  take: number;
 }
 
 class PostRecordDto {

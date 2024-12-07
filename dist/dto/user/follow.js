@@ -15,25 +15,31 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.TimeAgoDto = exports.PostRecordDto = exports.PostListRequestDto = void 0;
+exports.FollowListRequestDto = exports.FollowUserDto = exports.FollowResponseDto = exports.FollowRequestDto = void 0;
 var common_1 = require("../../common");
-var PostListRequestDto = (function (_super) {
-    __extends(PostListRequestDto, _super);
-    function PostListRequestDto() {
+var FollowRequestDto = (function () {
+    function FollowRequestDto() {
+    }
+    return FollowRequestDto;
+}());
+exports.FollowRequestDto = FollowRequestDto;
+var FollowListRequestDto = (function (_super) {
+    __extends(FollowListRequestDto, _super);
+    function FollowListRequestDto() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    return PostListRequestDto;
+    return FollowListRequestDto;
 }(common_1.PaginationDto));
-exports.PostListRequestDto = PostListRequestDto;
-var PostRecordDto = (function () {
-    function PostRecordDto() {
+exports.FollowListRequestDto = FollowListRequestDto;
+var FollowResponseDto = (function () {
+    function FollowResponseDto() {
     }
-    return PostRecordDto;
+    return FollowResponseDto;
 }());
-exports.PostRecordDto = PostRecordDto;
-var TimeAgoDto = (function () {
-    function TimeAgoDto() {
+exports.FollowResponseDto = FollowResponseDto;
+var FollowUserDto = (function () {
+    function FollowUserDto() {
     }
-    return TimeAgoDto;
+    return FollowUserDto;
 }());
-exports.TimeAgoDto = TimeAgoDto;
+exports.FollowUserDto = FollowUserDto;

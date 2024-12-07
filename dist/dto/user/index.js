@@ -19,6 +19,6 @@ __exportStar(require("./login"), exports);
 __exportStar(require("./jwtPayload"), exports);
 __exportStar(require("./register"), exports);
 __exportStar(require("./validate"), exports);
-__exportStar(require("./interaction"), exports);
+__exportStar(require("./follow"), exports);
 __exportStar(require("./profile"), exports);
 __exportStar(require("./BaseUser"), exports);

@@ -4,4 +4,9 @@ class ResponseDto {
   error_message: string;
 }
 
-export { ResponseDto };
+class PaginationDto {
+  skip: number;
+  take: number;
+}
+
+export { ResponseDto, PaginationDto };
