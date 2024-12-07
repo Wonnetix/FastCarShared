@@ -9,8 +9,8 @@ class FollowResponseDto {
 
 class FollowUserDto {
   userId: string;
-  profilePicture?: string;
-  name?: string;
+  profilePicture?: string | null;
+  name?: string | null;
   isPublic?: boolean;
   pendingApproval?: boolean;
 }
