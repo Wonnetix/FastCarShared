@@ -7,6 +7,6 @@ declare class UserBaseRecord {
     language?: string;
 }
 declare class InputUserRequestDto {
-    id: string;
+    userId: string;
 }
 export { InputUserRequestDto, UserBaseRecord };

@@ -36,7 +36,7 @@ class UserBaseRecord {
 
 class InputUserRequestDto {
   @IsString()
-  id: string;
+  userId: string;
 }
 
 export { InputUserRequestDto, UserBaseRecord };

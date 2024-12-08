@@ -55,7 +55,7 @@ var InputUserRequestDto = (function () {
     __decorate([
         (0, class_validator_1.IsString)(),
         __metadata("design:type", String)
-    ], InputUserRequestDto.prototype, "id", void 0);
+    ], InputUserRequestDto.prototype, "userId", void 0);
     return InputUserRequestDto;
 }());
 exports.InputUserRequestDto = InputUserRequestDto;
