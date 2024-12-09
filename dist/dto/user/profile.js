@@ -15,7 +15,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UpdateProfileDto = exports.UserProfileDto = void 0;
+exports.UpdateProfileResponseDto = exports.UpdateProfileDto = exports.UserProfileDto = void 0;
+var common_1 = require("../../common");
 var BaseUser_1 = require("./BaseUser");
 var UserProfileDto = (function (_super) {
     __extends(UserProfileDto, _super);
@@ -31,3 +32,11 @@ var UpdateProfileDto = (function () {
     return UpdateProfileDto;
 }());
 exports.UpdateProfileDto = UpdateProfileDto;
+var UpdateProfileResponseDto = (function (_super) {
+    __extends(UpdateProfileResponseDto, _super);
+    function UpdateProfileResponseDto() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    return UpdateProfileResponseDto;
+}(common_1.ResponseDto));
+exports.UpdateProfileResponseDto = UpdateProfileResponseDto;

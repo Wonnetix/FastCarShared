@@ -1,3 +1,4 @@
+import { ResponseDto } from "../../common";
 import { UserBaseRecord } from "./BaseUser";
 
 class UserProfileDto extends UserBaseRecord {
@@ -27,4 +28,8 @@ class UpdateProfileDto {
   language?: string;
 }
 
-export { UserProfileDto, UpdateProfileDto };
+class UpdateProfileResponseDto extends ResponseDto {
+  profilePicture: string;
+}
+
+export { UserProfileDto, UpdateProfileDto, UpdateProfileResponseDto };
