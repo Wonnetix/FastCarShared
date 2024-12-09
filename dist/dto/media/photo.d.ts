@@ -2,6 +2,7 @@ declare class NewPhotoRequestDto {
     width: number;
     height: number;
     timestamp: number;
+    publicId: string;
 }
 declare class NewPhotoResponseDto {
     id: string;
