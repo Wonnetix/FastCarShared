@@ -17,7 +17,6 @@ class UserProfileDto extends UserBaseRecord {
 }
 
 class UpdateProfileDto {
-  userId: string;
   bio?: string;
   profilePicture?: string;
   isPublic?: boolean;
