@@ -32,6 +32,10 @@ class UpdateProfileResponseDto extends ResponseDto {
   profilePicture: string;
 }
 
+class UserSearchRequestDto {
+  search: string;
+}
+
 class UserSearchItemDto {
   userId: string;
   username: string;

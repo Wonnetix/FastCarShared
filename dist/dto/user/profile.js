@@ -40,6 +40,11 @@ var UpdateProfileResponseDto = (function (_super) {
     return UpdateProfileResponseDto;
 }(common_1.ResponseDto));
 exports.UpdateProfileResponseDto = UpdateProfileResponseDto;
+var UserSearchRequestDto = (function () {
+    function UserSearchRequestDto() {
+    }
+    return UserSearchRequestDto;
+}());
 var UserSearchItemDto = (function () {
     function UserSearchItemDto() {
     }
