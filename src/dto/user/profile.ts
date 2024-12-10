@@ -43,6 +43,7 @@ class UserSearchItemDto {
   name: string;
   profilePicture: string;
   isPublic: boolean;
+  isFollowing: boolean;
 }
 
 export {

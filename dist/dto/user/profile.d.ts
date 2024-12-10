@@ -38,5 +38,6 @@ declare class UserSearchItemDto {
     name: string;
     profilePicture: string;
     isPublic: boolean;
+    isFollowing: boolean;
 }
 export { UserProfileDto, UpdateProfileDto, UpdateProfileResponseDto, UserSearchItemDto, UserSearchRequestDto, };
