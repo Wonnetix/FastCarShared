@@ -28,4 +28,11 @@ declare class UpdateProfileDto {
 declare class UpdateProfileResponseDto extends ResponseDto {
     profilePicture: string;
 }
-export { UserProfileDto, UpdateProfileDto, UpdateProfileResponseDto };
+declare class UserSearchItemDto {
+    userId: string;
+    username: string;
+    name: string;
+    profilePicture: string;
+    isPublic: boolean;
+}
+export { UserProfileDto, UpdateProfileDto, UpdateProfileResponseDto, UserSearchItemDto, };

@@ -32,4 +32,17 @@ class UpdateProfileResponseDto extends ResponseDto {
   profilePicture: string;
 }
 
-export { UserProfileDto, UpdateProfileDto, UpdateProfileResponseDto };
+class UserSearchItemDto {
+  userId: string;
+  username: string;
+  name: string;
+  profilePicture: string;
+  isPublic: boolean;
+}
+
+export {
+  UserProfileDto,
+  UpdateProfileDto,
+  UpdateProfileResponseDto,
+  UserSearchItemDto,
+};
