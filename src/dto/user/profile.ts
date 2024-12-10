@@ -37,13 +37,19 @@ class UserSearchRequestDto {
   search: string;
 }
 
+enum FollowStatus {
+  NOT_FOLLOWING = 0,
+  PENDING = 1,
+  FOLLOWING = 2,
+}
+
 class UserSearchItemDto {
   userId: string;
   username: string;
   name: string;
   profilePicture: string;
   isPublic: boolean;
-  isFollowing: boolean;
+  isFollowing: FollowStatus;
 }
 
 export {

@@ -32,12 +32,17 @@ declare class UpdateProfileResponseDto extends ResponseDto {
 declare class UserSearchRequestDto {
     search: string;
 }
+declare enum FollowStatus {
+    NOT_FOLLOWING = 0,
+    PENDING = 1,
+    FOLLOWING = 2
+}
 declare class UserSearchItemDto {
     userId: string;
     username: string;
     name: string;
     profilePicture: string;
     isPublic: boolean;
-    isFollowing: boolean;
+    isFollowing: FollowStatus;
 }
 export { UserProfileDto, UpdateProfileDto, UpdateProfileResponseDto, UserSearchItemDto, UserSearchRequestDto, };

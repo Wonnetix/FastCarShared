@@ -46,6 +46,12 @@ var UserSearchRequestDto = (function () {
     return UserSearchRequestDto;
 }());
 exports.UserSearchRequestDto = UserSearchRequestDto;
+var FollowStatus;
+(function (FollowStatus) {
+    FollowStatus[FollowStatus["NOT_FOLLOWING"] = 0] = "NOT_FOLLOWING";
+    FollowStatus[FollowStatus["PENDING"] = 1] = "PENDING";
+    FollowStatus[FollowStatus["FOLLOWING"] = 2] = "FOLLOWING";
+})(FollowStatus || (FollowStatus = {}));
 var UserSearchItemDto = (function () {
     function UserSearchItemDto() {
     }
