@@ -15,7 +15,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UserSearchItemDto = exports.UpdateProfileResponseDto = exports.UpdateProfileDto = exports.UserProfileDto = void 0;
+exports.UserSearchRequestDto = exports.UserSearchItemDto = exports.UpdateProfileResponseDto = exports.UpdateProfileDto = exports.UserProfileDto = void 0;
 var common_1 = require("../../common");
 var BaseUser_1 = require("./BaseUser");
 var UserProfileDto = (function (_super) {
@@ -45,6 +45,7 @@ var UserSearchRequestDto = (function () {
     }
     return UserSearchRequestDto;
 }());
+exports.UserSearchRequestDto = UserSearchRequestDto;
 var UserSearchItemDto = (function () {
     function UserSearchItemDto() {
     }

@@ -49,4 +49,5 @@ export {
   UpdateProfileDto,
   UpdateProfileResponseDto,
   UserSearchItemDto,
+  UserSearchRequestDto,
 };

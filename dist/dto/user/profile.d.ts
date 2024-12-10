@@ -28,6 +28,9 @@ declare class UpdateProfileDto {
 declare class UpdateProfileResponseDto extends ResponseDto {
     profilePicture: string;
 }
+declare class UserSearchRequestDto {
+    search: string;
+}
 declare class UserSearchItemDto {
     userId: string;
     username: string;
@@ -35,4 +38,4 @@ declare class UserSearchItemDto {
     profilePicture: string;
     isPublic: boolean;
 }
-export { UserProfileDto, UpdateProfileDto, UpdateProfileResponseDto, UserSearchItemDto, };
+export { UserProfileDto, UpdateProfileDto, UpdateProfileResponseDto, UserSearchItemDto, UserSearchRequestDto, };
