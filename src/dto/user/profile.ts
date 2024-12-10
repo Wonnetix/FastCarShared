@@ -58,4 +58,5 @@ export {
   UpdateProfileResponseDto,
   UserSearchItemDto,
   UserSearchRequestDto,
+  FollowStatus,
 };

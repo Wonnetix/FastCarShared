@@ -15,7 +15,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UserSearchRequestDto = exports.UserSearchItemDto = exports.UpdateProfileResponseDto = exports.UpdateProfileDto = exports.UserProfileDto = void 0;
+exports.FollowStatus = exports.UserSearchRequestDto = exports.UserSearchItemDto = exports.UpdateProfileResponseDto = exports.UpdateProfileDto = exports.UserProfileDto = void 0;
 var common_1 = require("../../common");
 var BaseUser_1 = require("./BaseUser");
 var UserProfileDto = (function (_super) {
@@ -51,7 +51,7 @@ var FollowStatus;
     FollowStatus[FollowStatus["NOT_FOLLOWING"] = 0] = "NOT_FOLLOWING";
     FollowStatus[FollowStatus["PENDING"] = 1] = "PENDING";
     FollowStatus[FollowStatus["FOLLOWING"] = 2] = "FOLLOWING";
-})(FollowStatus || (FollowStatus = {}));
+})(FollowStatus || (exports.FollowStatus = FollowStatus = {}));
 var UserSearchItemDto = (function () {
     function UserSearchItemDto() {
     }

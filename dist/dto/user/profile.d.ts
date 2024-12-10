@@ -45,4 +45,4 @@ declare class UserSearchItemDto {
     isPublic: boolean;
     isFollowing: FollowStatus;
 }
-export { UserProfileDto, UpdateProfileDto, UpdateProfileResponseDto, UserSearchItemDto, UserSearchRequestDto, };
+export { UserProfileDto, UpdateProfileDto, UpdateProfileResponseDto, UserSearchItemDto, UserSearchRequestDto, FollowStatus, };
