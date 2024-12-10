@@ -14,7 +14,7 @@ declare class UserProfileDto extends UserBaseRecord {
         followers: number;
         following: number;
     };
-    isFollowing?: boolean;
+    isFollowing?: FollowStatus;
 }
 declare class UpdateProfileDto {
     bio?: string;
