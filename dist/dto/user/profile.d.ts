@@ -13,6 +13,7 @@ declare class UserProfileDto extends UserBaseRecord {
         posts: number;
         followers: number;
         following: number;
+        pending: number;
     };
     isFollowing?: FollowStatus;
 }
@@ -40,7 +41,7 @@ declare enum FollowStatus {
 declare class UserSearchItemDto {
     userId: string;
     username: string;
-    name: string;
+    name: string | null;
     profilePicture: string;
     isPublic: boolean;
     isFollowing: FollowStatus;
