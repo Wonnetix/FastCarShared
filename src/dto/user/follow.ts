@@ -1,4 +1,6 @@
-class FollowRequestDto {
+import { UserSearchRequestDto } from "./profile";
+
+class FollowRequestDto extends UserSearchRequestDto {
   userId: string;
 }
 

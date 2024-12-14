@@ -1,4 +1,5 @@
-declare class FollowRequestDto {
+import { UserSearchRequestDto } from "./profile";
+declare class FollowRequestDto extends UserSearchRequestDto {
     userId: string;
 }
 declare class FollowResponseDto {
