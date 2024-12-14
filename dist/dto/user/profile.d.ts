@@ -1,4 +1,4 @@
-import { ResponseDto } from "../../common";
+import { PaginationDto, ResponseDto } from "../../common";
 import { UserBaseRecord } from "./BaseUser";
 declare class UserProfileDto extends UserBaseRecord {
     userId: string;
@@ -30,7 +30,7 @@ declare class UpdateProfileDto {
 declare class UpdateProfileResponseDto extends ResponseDto {
     profilePicture: string;
 }
-declare class UserSearchRequestDto {
+declare class UserSearchRequestDto extends PaginationDto {
     search: string;
 }
 declare enum FollowStatus {

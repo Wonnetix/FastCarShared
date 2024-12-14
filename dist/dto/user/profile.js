@@ -40,11 +40,13 @@ var UpdateProfileResponseDto = (function (_super) {
     return UpdateProfileResponseDto;
 }(common_1.ResponseDto));
 exports.UpdateProfileResponseDto = UpdateProfileResponseDto;
-var UserSearchRequestDto = (function () {
+var UserSearchRequestDto = (function (_super) {
+    __extends(UserSearchRequestDto, _super);
     function UserSearchRequestDto() {
+        return _super !== null && _super.apply(this, arguments) || this;
     }
     return UserSearchRequestDto;
-}());
+}(common_1.PaginationDto));
 exports.UserSearchRequestDto = UserSearchRequestDto;
 var FollowStatus;
 (function (FollowStatus) {

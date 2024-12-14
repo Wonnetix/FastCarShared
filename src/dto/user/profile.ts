@@ -1,4 +1,4 @@
-import { ResponseDto } from "../../common";
+import { PaginationDto, ResponseDto } from "../../common";
 import { UserBaseRecord } from "./BaseUser";
 
 class UserProfileDto extends UserBaseRecord {
@@ -34,7 +34,7 @@ class UpdateProfileResponseDto extends ResponseDto {
   profilePicture: string;
 }
 
-class UserSearchRequestDto {
+class UserSearchRequestDto extends PaginationDto {
   search: string;
 }
 
