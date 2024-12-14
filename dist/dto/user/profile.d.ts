@@ -14,6 +14,7 @@ declare class UserProfileDto extends UserBaseRecord {
         followers: number;
         following: number;
         pending: number;
+        sent: number;
     };
     isFollowing?: FollowStatus;
 }
