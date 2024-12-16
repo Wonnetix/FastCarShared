@@ -7,6 +7,7 @@ declare class PostRecordDto {
     id: string;
     userId: string;
     authorHandle: string;
+    authorProfilePicture: string;
     caption: string;
     timeAgo: TimeAgoDto;
     likeCount: number;
