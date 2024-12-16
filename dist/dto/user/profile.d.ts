@@ -46,5 +46,6 @@ declare class UserSearchItemDto {
     profilePicture: string;
     isPublic: boolean;
     isFollowing: FollowStatus;
+    isFollowed: FollowStatus;
 }
 export { UserProfileDto, UpdateProfileDto, UpdateProfileResponseDto, UserSearchItemDto, UserSearchRequestDto, FollowStatus, };
