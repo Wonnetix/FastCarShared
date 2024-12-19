@@ -20,6 +20,7 @@ declare class CommentRecordDto {
     likes: number;
     replies: number;
     timeAgo: TimeAgoDto;
+    level?: number;
 }
 declare class DeleteCommentResponseDto extends ResponseDto {
 }
