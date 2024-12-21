@@ -2,6 +2,7 @@ import { FuelType, TransmissionType, VisibilityType } from ".";
 import { ResponseDto } from "../../common";
 
 class CreateCarRequestDto {
+  id: string;
   modelId: number;
   year: number;
   km: number;
