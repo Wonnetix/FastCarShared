@@ -15,6 +15,7 @@ declare class UpdateCarResponseDto extends ResponseDto {
 }
 declare class TransferCarRequestDto {
     newOwnerId: string;
+    lastKmReading: number;
 }
 declare class TransferCarResponseDto extends ResponseDto {
 }
