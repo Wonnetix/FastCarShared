@@ -7,4 +7,5 @@ export interface _jwtPayload extends JwtPayload {
   session_id: string;
   roles: string[];
   expires: string;
+  language: string;
 }
