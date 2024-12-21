@@ -6,7 +6,7 @@ class UpdateCarRequestDto {
   year: number;
   km: number;
   engine_size?: number;
-  fuel_type?: FuelType;
+  fuel?: FuelType;
   transmission?: TransmissionType;
   color?: number;
   vin?: string;
