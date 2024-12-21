@@ -1,3 +1,4 @@
+import { PostType } from ".";
 import { ResponseDto } from "../../common";
 
 class CreatePostRequestDto {
@@ -5,6 +6,7 @@ class CreatePostRequestDto {
   media_url: string;
   thumbnail_url: string;
   caption: string;
+  type: PostType;
 }
 
 class CreatePostResponseDto extends ResponseDto {}
