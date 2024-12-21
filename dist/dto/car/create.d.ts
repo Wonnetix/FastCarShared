@@ -8,7 +8,7 @@ declare class CreateCarRequestDto {
     engine_size?: number;
     fuel_type?: FuelType;
     transmission?: TransmissionType;
-    color?: string;
+    color?: number;
     vin?: string;
     visibility?: VisibilityType;
 }
