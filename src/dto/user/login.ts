@@ -23,6 +23,8 @@ class SocialLoginRequestDto extends LoginBase {
 class LoginUserResponseDto extends ResponseDto {
   userId: string;
   token: string;
+  language: string;
+  mediaBaseUrl: string;
 }
 
 export {

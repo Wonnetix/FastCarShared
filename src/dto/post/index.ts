@@ -4,3 +4,10 @@ export * from "./like";
 export * from "./comment";
 export * from "./delete";
 export * from "./update";
+
+export enum PostType {
+  POST = 0,
+  CAR = 1,
+  MAINTENANCE = 2,
+  ACCIDENT = 3,
+}

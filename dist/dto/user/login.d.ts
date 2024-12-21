@@ -15,5 +15,7 @@ declare class SocialLoginRequestDto extends LoginBase {
 declare class LoginUserResponseDto extends ResponseDto {
     userId: string;
     token: string;
+    language: string;
+    mediaBaseUrl: string;
 }
 export { LoginUserRequestDto, LoginUserResponseDto, SocialLoginRequestDto, LoginBase, };
