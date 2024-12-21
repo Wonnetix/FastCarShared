@@ -17,4 +17,5 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./dto/user"), exports);
 __exportStar(require("./dto/media"), exports);
 __exportStar(require("./dto/post"), exports);
+__exportStar(require("./dto/car"), exports);
 __exportStar(require("./common"), exports);
