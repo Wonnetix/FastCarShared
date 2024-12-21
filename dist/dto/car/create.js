@@ -15,25 +15,22 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CreateMultimediaPostRequestDto = exports.CreatePostResponseDto = exports.CreatePostRequestDto = void 0;
+exports.CreateCarResponseDto = exports.CreateCarRequestDto = void 0;
 var common_1 = require("../../common");
-var CreatePostRequestDto = (function () {
-    function CreatePostRequestDto() {
-    }
-    return CreatePostRequestDto;
-}());
-exports.CreatePostRequestDto = CreatePostRequestDto;
-var CreateMultimediaPostRequestDto = (function () {
-    function CreateMultimediaPostRequestDto() {
-    }
-    return CreateMultimediaPostRequestDto;
-}());
-exports.CreateMultimediaPostRequestDto = CreateMultimediaPostRequestDto;
-var CreatePostResponseDto = (function (_super) {
-    __extends(CreatePostResponseDto, _super);
-    function CreatePostResponseDto() {
+var post_1 = require("../post");
+var CreateCarRequestDto = (function (_super) {
+    __extends(CreateCarRequestDto, _super);
+    function CreateCarRequestDto() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    return CreatePostResponseDto;
+    return CreateCarRequestDto;
+}(post_1.CreatePostRequestDto));
+exports.CreateCarRequestDto = CreateCarRequestDto;
+var CreateCarResponseDto = (function (_super) {
+    __extends(CreateCarResponseDto, _super);
+    function CreateCarResponseDto() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    return CreateCarResponseDto;
 }(common_1.ResponseDto));
-exports.CreatePostResponseDto = CreatePostResponseDto;
+exports.CreateCarResponseDto = CreateCarResponseDto;

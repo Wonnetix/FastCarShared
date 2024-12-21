@@ -7,6 +7,13 @@ declare class CreatePostRequestDto {
     caption: string;
     type: PostType;
 }
+declare class CreateMultimediaPostRequestDto {
+    media_id: string[];
+    media_url: string[];
+    thumbnail_url: string[];
+    caption: string;
+    type: PostType;
+}
 declare class CreatePostResponseDto extends ResponseDto {
 }
-export { CreatePostRequestDto, CreatePostResponseDto };
+export { CreatePostRequestDto, CreatePostResponseDto, CreateMultimediaPostRequestDto, };
