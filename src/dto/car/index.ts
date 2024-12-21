@@ -23,3 +23,4 @@ export enum VisibilityType {
 }
 
 export * from "./create";
+export * from "./update";

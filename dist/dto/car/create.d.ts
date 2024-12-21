@@ -1,16 +1,7 @@
-import { FuelType, TransmissionType, VisibilityType } from ".";
+import { UpdateCarRequestDto } from "./update";
 import { ResponseDto } from "../../common";
-declare class CreateCarRequestDto {
+declare class CreateCarRequestDto extends UpdateCarRequestDto {
     id: string;
-    modelId: number;
-    year: number;
-    km: number;
-    engine_size?: number;
-    fuel_type?: FuelType;
-    transmission?: TransmissionType;
-    color?: number;
-    vin?: string;
-    visibility?: VisibilityType;
 }
 declare class CreateCarResponseDto extends ResponseDto {
 }

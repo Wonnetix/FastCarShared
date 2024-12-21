@@ -19,3 +19,4 @@ export declare enum VisibilityType {
     LOCKED = 2
 }
 export * from "./create";
+export * from "./update";

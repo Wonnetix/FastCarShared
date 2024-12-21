@@ -15,22 +15,19 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CreateCarResponseDto = exports.CreateCarRequestDto = void 0;
-var update_1 = require("./update");
+exports.UpdateCarResponseDto = exports.UpdateCarRequestDto = void 0;
 var common_1 = require("../../common");
-var CreateCarRequestDto = (function (_super) {
-    __extends(CreateCarRequestDto, _super);
-    function CreateCarRequestDto() {
+var UpdateCarRequestDto = (function () {
+    function UpdateCarRequestDto() {
+    }
+    return UpdateCarRequestDto;
+}());
+exports.UpdateCarRequestDto = UpdateCarRequestDto;
+var UpdateCarResponseDto = (function (_super) {
+    __extends(UpdateCarResponseDto, _super);
+    function UpdateCarResponseDto() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    return CreateCarRequestDto;
-}(update_1.UpdateCarRequestDto));
-exports.CreateCarRequestDto = CreateCarRequestDto;
-var CreateCarResponseDto = (function (_super) {
-    __extends(CreateCarResponseDto, _super);
-    function CreateCarResponseDto() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    return CreateCarResponseDto;
+    return UpdateCarResponseDto;
 }(common_1.ResponseDto));
-exports.CreateCarResponseDto = CreateCarResponseDto;
+exports.UpdateCarResponseDto = UpdateCarResponseDto;

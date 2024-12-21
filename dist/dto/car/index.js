@@ -40,3 +40,4 @@ var VisibilityType;
     VisibilityType[VisibilityType["LOCKED"] = 2] = "LOCKED";
 })(VisibilityType || (exports.VisibilityType = VisibilityType = {}));
 __exportStar(require("./create"), exports);
+__exportStar(require("./update"), exports);
