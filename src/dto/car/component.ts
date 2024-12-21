@@ -1,12 +1,12 @@
 import { PaginationDto } from "../../common";
 
 class ComponentGroupRecordDto {
-  id: string;
+  id: number;
   name: string;
 }
 
 class ComponentRecordDto {
-  id: string;
+  id: number;
   name: string;
   groupId: number;
 }

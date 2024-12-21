@@ -1,12 +1,12 @@
 import { PaginationDto } from "../../common";
 
 class PhenomenonGroupRecordDto {
-  id: string;
+  id: number;
   name: string;
 }
 
 class PhenomenonRecordDto {
-  id: string;
+  id: number;
   name: string;
   groupId: number;
 }
