@@ -1,7 +1,6 @@
 import { FuelType, TransmissionType, VisibilityType } from ".";
 import { ResponseDto } from "../../common";
-import { CreatePostRequestDto } from "../post";
-declare class CreateCarRequestDto extends CreatePostRequestDto {
+declare class CreateCarRequestDto {
     modelId: number;
     year: number;
     km: number;

@@ -17,14 +17,11 @@ var __extends = (this && this.__extends) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CreateCarResponseDto = exports.CreateCarRequestDto = void 0;
 var common_1 = require("../../common");
-var post_1 = require("../post");
-var CreateCarRequestDto = (function (_super) {
-    __extends(CreateCarRequestDto, _super);
+var CreateCarRequestDto = (function () {
     function CreateCarRequestDto() {
-        return _super !== null && _super.apply(this, arguments) || this;
     }
     return CreateCarRequestDto;
-}(post_1.CreatePostRequestDto));
+}());
 exports.CreateCarRequestDto = CreateCarRequestDto;
 var CreateCarResponseDto = (function (_super) {
     __extends(CreateCarResponseDto, _super);
