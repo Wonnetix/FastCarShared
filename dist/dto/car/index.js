@@ -41,3 +41,5 @@ var VisibilityType;
 })(VisibilityType || (exports.VisibilityType = VisibilityType = {}));
 __exportStar(require("./create"), exports);
 __exportStar(require("./update"), exports);
+__exportStar(require("./component"), exports);
+__exportStar(require("./phenomenon"), exports);

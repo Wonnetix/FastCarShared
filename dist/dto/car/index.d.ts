@@ -20,3 +20,5 @@ export declare enum VisibilityType {
 }
 export * from "./create";
 export * from "./update";
+export * from "./component";
+export * from "./phenomenon";
