@@ -15,7 +15,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UpdateCarResponseDto = exports.UpdateCarRequestDto = void 0;
+exports.TransferCarResponseDto = exports.TransferCarRequestDto = exports.UpdateCarResponseDto = exports.UpdateCarRequestDto = void 0;
 var common_1 = require("../../common");
 var UpdateCarRequestDto = (function () {
     function UpdateCarRequestDto() {
@@ -31,3 +31,17 @@ var UpdateCarResponseDto = (function (_super) {
     return UpdateCarResponseDto;
 }(common_1.ResponseDto));
 exports.UpdateCarResponseDto = UpdateCarResponseDto;
+var TransferCarRequestDto = (function () {
+    function TransferCarRequestDto() {
+    }
+    return TransferCarRequestDto;
+}());
+exports.TransferCarRequestDto = TransferCarRequestDto;
+var TransferCarResponseDto = (function (_super) {
+    __extends(TransferCarResponseDto, _super);
+    function TransferCarResponseDto() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    return TransferCarResponseDto;
+}(common_1.ResponseDto));
+exports.TransferCarResponseDto = TransferCarResponseDto;

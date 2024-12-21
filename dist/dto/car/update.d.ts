@@ -13,4 +13,9 @@ declare class UpdateCarRequestDto {
 }
 declare class UpdateCarResponseDto extends ResponseDto {
 }
-export { UpdateCarRequestDto, UpdateCarResponseDto };
+declare class TransferCarRequestDto {
+    newOwnerId: string;
+}
+declare class TransferCarResponseDto extends ResponseDto {
+}
+export { UpdateCarRequestDto, UpdateCarResponseDto, TransferCarRequestDto, TransferCarResponseDto, };

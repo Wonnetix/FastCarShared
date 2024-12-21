@@ -15,4 +15,15 @@ class UpdateCarRequestDto {
 
 class UpdateCarResponseDto extends ResponseDto {}
 
-export { UpdateCarRequestDto, UpdateCarResponseDto };
+class TransferCarRequestDto {
+  newOwnerId: string;
+}
+
+class TransferCarResponseDto extends ResponseDto {}
+
+export {
+  UpdateCarRequestDto,
+  UpdateCarResponseDto,
+  TransferCarRequestDto,
+  TransferCarResponseDto,
+};
