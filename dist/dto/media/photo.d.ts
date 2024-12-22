@@ -17,7 +17,7 @@ declare class MediaRecordDto {
     mediaUrl: string;
     thumbnailUrl?: string;
     mediaType?: string;
-    createdAt: string;
-    updatedAt: string;
+    createdAt: Date;
+    updatedAt: Date;
 }
 export { NewPhotoRequestDto, NewPhotoResponseDto, MediaRecordDto };

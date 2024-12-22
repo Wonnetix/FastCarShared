@@ -9,7 +9,7 @@ interface MaintenanceItem {
   id: string;
   type: MaintenanceType;
   km: number;
-  date: string;
+  date: Date;
   description: string;
   failures: CarFailureRecordDto[];
 }

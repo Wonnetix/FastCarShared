@@ -3,7 +3,7 @@ import { CarFailureRecordDto } from "./failure";
 interface AccidentItem {
   id: string;
   km: number;
-  date: string;
+  date: Date;
   description: string;
   failures: CarFailureRecordDto[];
 }
