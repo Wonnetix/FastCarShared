@@ -12,7 +12,7 @@ interface CarRecordDto {
   color?: number;
   vin?: string;
   visibility?: VisibilityType;
-  images: MediaRecordDto[];
+  media: MediaRecordDto[];
 }
 
 class CarListRequestDto extends PaginationDto {

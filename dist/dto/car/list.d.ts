@@ -11,7 +11,7 @@ interface CarRecordDto {
     color?: number;
     vin?: string;
     visibility?: VisibilityType;
-    images: MediaRecordDto[];
+    media: MediaRecordDto[];
 }
 declare class CarListRequestDto extends PaginationDto {
     userId: string;
