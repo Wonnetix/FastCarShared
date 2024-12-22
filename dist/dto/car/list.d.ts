@@ -1,5 +1,3 @@
-import { MaintenanceItem } from "./maintenance";
-import { AccidentItem } from "./accident";
 import { FuelType, TransmissionType, VisibilityType } from "./update";
 import { MediaRecordDto } from "../media";
 import { PaginationDto } from "../../common";
@@ -14,8 +12,6 @@ interface CarRecordDto {
     vin?: string;
     visibility?: VisibilityType;
     images: MediaRecordDto[];
-    maintenanceHistory: MaintenanceItem[];
-    accidentHistory: AccidentItem[];
 }
 declare class CarListRequestDto extends PaginationDto {
     userId: string;
