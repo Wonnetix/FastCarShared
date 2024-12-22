@@ -1,3 +1,4 @@
+import { PaginationDto } from "../../common";
 import { CarFailureRecordDto } from "./failure";
 declare enum MaintenanceType {
     MAINTENANCE = 0,
@@ -11,4 +12,9 @@ interface MaintenanceItem {
     description: string;
     failures: CarFailureRecordDto[];
 }
-export { MaintenanceItem, MaintenanceType };
+interface MaintenanceListRequest extends PaginationDto {
+    carId: string;
+    startDate: Date;
+    endDate: Date;
+}
+export { MaintenanceItem, MaintenanceType, MaintenanceListRequest };
