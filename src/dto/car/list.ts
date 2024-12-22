@@ -1,6 +1,6 @@
 import { FuelType, TransmissionType, VisibilityType } from "./update";
-import { MediaRecordDto } from "../media";
 import { PaginationDto } from "../../common";
+import { PostRecordDto } from "../post";
 
 interface CarRecordDto {
   modelId: number;
@@ -12,7 +12,7 @@ interface CarRecordDto {
   color?: number;
   vin?: string;
   visibility?: VisibilityType;
-  media: MediaRecordDto[];
+  post: PostRecordDto;
 }
 
 class CarListRequestDto extends PaginationDto {

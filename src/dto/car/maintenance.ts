@@ -1,4 +1,5 @@
 import { PaginationDto } from "../../common";
+import { MediaRecordDto } from "../media";
 import { CarFailureRecordDto } from "./failure";
 
 enum MaintenanceType {
@@ -13,6 +14,7 @@ interface MaintenanceItem {
   date: Date;
   description: string;
   failures: CarFailureRecordDto[];
+  media: MediaRecordDto[];
 }
 
 interface MaintenanceListRequest extends PaginationDto {

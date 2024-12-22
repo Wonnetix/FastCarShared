@@ -1,4 +1,5 @@
 import { PaginationDto } from "../../common";
+import { MediaRecordDto } from "../media";
 import { CarFailureRecordDto } from "./failure";
 interface AccidentItem {
     id: string;
@@ -6,6 +7,7 @@ interface AccidentItem {
     date: Date;
     description: string;
     failures: CarFailureRecordDto[];
+    media: MediaRecordDto[];
 }
 interface AccidentListRequest extends PaginationDto {
     carId: string;
