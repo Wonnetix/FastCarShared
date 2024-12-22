@@ -1,6 +1,6 @@
 import { ResponseDto } from "../../common";
 
-export enum FuelType {
+enum FuelType {
   GASOLINE = 0,
   DIESEL = 1,
   ELECTRIC = 2,
@@ -8,12 +8,12 @@ export enum FuelType {
   HYDROGEN = 4,
 }
 
-export enum TransmissionType {
+enum TransmissionType {
   MANUAL = 0,
   AUTOMATIC = 1,
 }
 
-export enum VisibilityType {
+enum VisibilityType {
   PRIVATE = 0,
   PUBLIC = 1,
   PUBLIC_FOR_FOLLOWERS = 2,

@@ -15,7 +15,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.TransferCarResponseDto = exports.TransferCarRequestDto = exports.UpdateCarResponseDto = exports.UpdateCarRequestDto = exports.VisibilityType = exports.TransmissionType = exports.FuelType = void 0;
+exports.VisibilityType = exports.TransmissionType = exports.FuelType = exports.TransferCarResponseDto = exports.TransferCarRequestDto = exports.UpdateCarResponseDto = exports.UpdateCarRequestDto = void 0;
 var common_1 = require("../../common");
 var FuelType;
 (function (FuelType) {
