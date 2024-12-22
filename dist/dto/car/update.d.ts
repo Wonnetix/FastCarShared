@@ -11,9 +11,10 @@ export declare enum TransmissionType {
     AUTOMATIC = 1
 }
 export declare enum VisibilityType {
-    PUBLIC = 0,
-    PRIVATE = 1,
-    LOCKED = 2
+    PRIVATE = 0,
+    PUBLIC = 1,
+    PUBLIC_FOR_FOLLOWERS = 2,
+    LOCKED = 3
 }
 declare class UpdateCarRequestDto {
     modelId: number;

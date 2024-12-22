@@ -32,9 +32,10 @@ var TransmissionType;
 })(TransmissionType || (exports.TransmissionType = TransmissionType = {}));
 var VisibilityType;
 (function (VisibilityType) {
-    VisibilityType[VisibilityType["PUBLIC"] = 0] = "PUBLIC";
-    VisibilityType[VisibilityType["PRIVATE"] = 1] = "PRIVATE";
-    VisibilityType[VisibilityType["LOCKED"] = 2] = "LOCKED";
+    VisibilityType[VisibilityType["PRIVATE"] = 0] = "PRIVATE";
+    VisibilityType[VisibilityType["PUBLIC"] = 1] = "PUBLIC";
+    VisibilityType[VisibilityType["PUBLIC_FOR_FOLLOWERS"] = 2] = "PUBLIC_FOR_FOLLOWERS";
+    VisibilityType[VisibilityType["LOCKED"] = 3] = "LOCKED";
 })(VisibilityType || (exports.VisibilityType = VisibilityType = {}));
 var UpdateCarRequestDto = (function () {
     function UpdateCarRequestDto() {

@@ -14,9 +14,10 @@ export enum TransmissionType {
 }
 
 export enum VisibilityType {
-  PUBLIC = 0,
-  PRIVATE = 1,
-  LOCKED = 2,
+  PRIVATE = 0,
+  PUBLIC = 1,
+  PUBLIC_FOR_FOLLOWERS = 2,
+  LOCKED = 3,
 }
 
 class UpdateCarRequestDto {
