@@ -10,7 +10,6 @@ interface AccidentItem {
     media: MediaRecordDto[];
 }
 interface AccidentListRequest extends PaginationDto {
-    carId: string;
     startDate: Date;
     endDate: Date;
 }

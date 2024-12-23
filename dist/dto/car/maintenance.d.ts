@@ -15,7 +15,6 @@ interface MaintenanceItem {
     media: MediaRecordDto[];
 }
 interface MaintenanceListRequest extends PaginationDto {
-    carId: string;
     startDate: Date;
     endDate: Date;
 }

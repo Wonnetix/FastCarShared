@@ -15,8 +15,6 @@ interface CarRecordDto {
   post: PostRecordDto;
 }
 
-class CarListRequestDto extends PaginationDto {
-  userId: string;
-}
+class CarListRequestDto extends PaginationDto {}
 
 export { CarRecordDto, CarListRequestDto };

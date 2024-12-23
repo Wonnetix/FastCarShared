@@ -18,7 +18,6 @@ interface MaintenanceItem {
 }
 
 interface MaintenanceListRequest extends PaginationDto {
-  carId: string;
   startDate: Date;
   endDate: Date;
 }
