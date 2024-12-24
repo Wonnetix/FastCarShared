@@ -3,6 +3,9 @@ import { PaginationDto } from "../../common";
 import { PostRecordDto } from "../post";
 interface CarRecordDto {
     modelId: number;
+    brandName: string;
+    modelName: string;
+    colorName: string;
     year: number;
     km: number;
     engine_size?: number;
