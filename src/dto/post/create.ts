@@ -15,6 +15,7 @@ class CreateMultimediaPostRequestDto {
   thumbnail_url: string[];
   caption: string;
   type: PostType;
+  extraId?: string; //
 }
 
 class CreatePostResponseDto extends ResponseDto {}

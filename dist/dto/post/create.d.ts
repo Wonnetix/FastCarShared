@@ -13,6 +13,7 @@ declare class CreateMultimediaPostRequestDto {
     thumbnail_url: string[];
     caption: string;
     type: PostType;
+    extraId?: string;
 }
 declare class CreatePostResponseDto extends ResponseDto {
 }
