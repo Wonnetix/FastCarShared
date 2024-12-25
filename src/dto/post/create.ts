@@ -18,7 +18,9 @@ class CreateMultimediaPostRequestDto {
   extraId?: string; //
 }
 
-class CreatePostResponseDto extends ResponseDto {}
+class CreatePostResponseDto extends ResponseDto {
+  postId: string;
+}
 
 export {
   CreatePostRequestDto,

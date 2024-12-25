@@ -16,5 +16,6 @@ declare class CreateMultimediaPostRequestDto {
     extraId?: string;
 }
 declare class CreatePostResponseDto extends ResponseDto {
+    postId: string;
 }
 export { CreatePostRequestDto, CreatePostResponseDto, CreateMultimediaPostRequestDto, };
