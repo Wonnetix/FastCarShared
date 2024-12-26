@@ -1,5 +1,6 @@
 import { PostType } from ".";
 import { ResponseDto } from "../../common";
+import { VisibilityType } from "../car";
 declare class CreatePostRequestDto {
     id: string;
     media_url: string;
@@ -13,7 +14,7 @@ declare class CreateMultimediaPostRequestDto {
     thumbnail_url: string[];
     caption: string;
     type: PostType;
-    extraId?: string;
+    visibility?: VisibilityType;
 }
 declare class CreatePostResponseDto extends ResponseDto {
     postId: string;
