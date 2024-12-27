@@ -1,6 +1,7 @@
 import { IsString, IsEmail } from "class-validator";
 import { ExpoDeviceInfo } from "./device";
 import { ResponseDto } from "../../common";
+import { UserSubsInfoResponse } from "w1classes";
 
 class LoginBase {
   device_info: ExpoDeviceInfo;
@@ -25,6 +26,7 @@ class LoginUserResponseDto extends ResponseDto {
   token: string;
   language: string;
   mediaBaseUrl: string;
+  subscription_info: UserSubsInfoResponse;
 }
 
 export {

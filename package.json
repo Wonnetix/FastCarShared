@@ -1,6 +1,6 @@
 {
   "name": "fastcarshared",
-  "version": "1.5.12",
+  "version": "1.5.13",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -28,6 +28,7 @@
   "dependencies": {
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.1",
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^9.0.2",
+    "w1classes": "github:Wonnetix/W1Classes"
   }
 }

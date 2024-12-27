@@ -1,5 +1,6 @@
 import { ExpoDeviceInfo } from "./device";
 import { ResponseDto } from "../../common";
+import { UserSubsInfoResponse } from "w1classes";
 declare class LoginBase {
     device_info: ExpoDeviceInfo;
 }
@@ -17,5 +18,6 @@ declare class LoginUserResponseDto extends ResponseDto {
     token: string;
     language: string;
     mediaBaseUrl: string;
+    subscription_info: UserSubsInfoResponse;
 }
 export { LoginUserRequestDto, LoginUserResponseDto, SocialLoginRequestDto, LoginBase, };
