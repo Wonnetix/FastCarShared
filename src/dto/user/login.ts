@@ -26,7 +26,7 @@ class LoginUserResponseDto extends ResponseDto {
   token: string;
   language: string;
   mediaBaseUrl: string;
-  subscription_info: UserSubsInfoResponse;
+  subscription_info?: UserSubsInfoResponse;
 }
 
 export {
