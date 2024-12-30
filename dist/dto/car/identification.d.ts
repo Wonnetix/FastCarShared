@@ -1,7 +1,7 @@
 interface CarIdentificationDto {
-    brandId: string;
+    brandId: number;
     brandName: string;
-    modelId: string;
+    modelId: number;
     modelName: string;
     color: string;
     colorName: string;
