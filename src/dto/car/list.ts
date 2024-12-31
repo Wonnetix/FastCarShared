@@ -18,6 +18,16 @@ interface CarRecordDto {
   post: PostRecordDto;
 }
 
+interface CarBrandDto {
+  id: number;
+  name: string;
+}
+
+interface CarModelDto {
+  id: number;
+  name: string;
+}
+
 class CarListRequestDto extends PaginationDto {}
 
-export { CarRecordDto, CarListRequestDto };
+export { CarRecordDto, CarListRequestDto, CarBrandDto, CarModelDto };

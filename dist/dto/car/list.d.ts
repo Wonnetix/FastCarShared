@@ -16,6 +16,14 @@ interface CarRecordDto {
     visibility?: VisibilityType;
     post: PostRecordDto;
 }
+interface CarBrandDto {
+    id: number;
+    name: string;
+}
+interface CarModelDto {
+    id: number;
+    name: string;
+}
 declare class CarListRequestDto extends PaginationDto {
 }
-export { CarRecordDto, CarListRequestDto };
+export { CarRecordDto, CarListRequestDto, CarBrandDto, CarModelDto };
