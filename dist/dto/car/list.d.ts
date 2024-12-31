@@ -2,6 +2,7 @@ import { FuelType, TransmissionType, VisibilityType } from "./update";
 import { PaginationDto } from "../../common";
 import { PostRecordDto } from "../post";
 interface CarRecordDto {
+    brandId: number;
     modelId: number;
     brandName: string;
     modelName: string;
