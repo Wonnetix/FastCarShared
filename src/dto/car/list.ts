@@ -21,6 +21,7 @@ interface CarRecordDto {
 interface CarBrandDto {
   id: number;
   name: string;
+  models: CarModelDto[];
 }
 
 interface CarModelDto {
