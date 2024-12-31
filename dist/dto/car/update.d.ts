@@ -17,7 +17,6 @@ declare enum VisibilityType {
     LOCKED = 3
 }
 declare class UpdateCarRequestDto {
-    brandId: number;
     modelId: number;
     year: number;
     km: number;

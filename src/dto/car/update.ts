@@ -21,7 +21,6 @@ enum VisibilityType {
 }
 
 class UpdateCarRequestDto {
-  brandId: number;
   modelId: number;
   year: number;
   km: number;
