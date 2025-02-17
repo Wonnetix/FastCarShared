@@ -15,7 +15,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UpdatePostResponseDto = exports.UpdatePostRequestDto = void 0;
+exports.UpdateMultimediaPostRequestDto = exports.UpdatePostResponseDto = exports.UpdatePostRequestDto = void 0;
+var _1 = require(".");
 var common_1 = require("../../common");
 var UpdatePostRequestDto = (function () {
     function UpdatePostRequestDto() {
@@ -23,6 +24,14 @@ var UpdatePostRequestDto = (function () {
     return UpdatePostRequestDto;
 }());
 exports.UpdatePostRequestDto = UpdatePostRequestDto;
+var UpdateMultimediaPostRequestDto = (function (_super) {
+    __extends(UpdateMultimediaPostRequestDto, _super);
+    function UpdateMultimediaPostRequestDto() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    return UpdateMultimediaPostRequestDto;
+}(_1.CreateMultimediaPostRequestDto));
+exports.UpdateMultimediaPostRequestDto = UpdateMultimediaPostRequestDto;
 var UpdatePostResponseDto = (function (_super) {
     __extends(UpdatePostResponseDto, _super);
     function UpdatePostResponseDto() {
